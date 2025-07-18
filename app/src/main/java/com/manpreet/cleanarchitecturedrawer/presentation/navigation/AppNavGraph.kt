@@ -19,6 +19,7 @@ fun AppNavGraph(navController: NavHostController) {
         composable("splash") { SplashScreen(navController) }
         composable("login") { LoginScreen(navController) }
         composable("home") { DrawerScreen() }
+        composable("drawer") { DrawerScreen() }
     }
 }
 
