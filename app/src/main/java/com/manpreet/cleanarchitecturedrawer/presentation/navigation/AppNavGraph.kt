@@ -20,11 +20,6 @@ fun AppNavGraph(navController: NavHostController) {
         composable("login") { LoginScreen(navController) }
         composable("home") { DrawerScreen() }
         composable("drawer") { DrawerScreen() }
-
-
-        composable("profile") { DrawerScreen() }
-        composable("logout") { DrawerScreen() }
-        composable("Cart") { DrawerScreen() }
     }
 }
 
